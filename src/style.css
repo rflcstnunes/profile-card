@@ -1,0 +1,87 @@
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background: hsl(185, 75%, 39%);
+}
+
+.background {
+    position: fixed;
+}
+
+.topBubble {
+    display: flex;
+    width: 400px;
+    top: 0;
+}
+
+.bottomBubble {
+    display: flex;
+    width: 400px;
+    bottom: 0;
+    right: 0;
+}
+
+.container {
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    flex-direction: column;
+    background: white;
+    z-index: 1;
+}
+
+
+
+.card-img-top {
+    position: relative;
+    width: 100%;
+    margin-top: 0px;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+}
+
+.victor-img {
+    position: absolute;
+    border-radius: 60px;
+    border: 5px solid white;
+    margin-top: 65px;
+}
+
+.card-informations {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;   
+}
+
+.age {
+    padding-left: 5px;
+}
+
+.statistics {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid rgb(202, 202, 202);
+}
+
+.box-statis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    line-height: 0;
+}
+
+.legend {
+    color: hsl(227, 10%, 46%);
+}
